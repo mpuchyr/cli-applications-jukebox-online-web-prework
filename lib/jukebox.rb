@@ -1,5 +1,5 @@
 # Add your code here
-def say_hell(name)
+def say_hello(name)
   "Hi #{name}!"
 end
 
