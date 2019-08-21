@@ -42,7 +42,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run
+def run(songs)
   running = true
   while running == true  do
     puts "Please enter a command:"
