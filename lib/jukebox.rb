@@ -47,13 +47,8 @@ def run
   while running == true  do
     puts "Please enter a command:"
     user_input = gets.strip
-    if user_input == "help"
-      help
-    elsif user_input == "list"
-      list(songs)
-    elsif user_input == "play"
-      play(songs)
-    elsif user_input == "exit"
+    case user_input
+    when "exit"
       break
     end
   end
